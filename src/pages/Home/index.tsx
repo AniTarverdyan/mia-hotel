@@ -3,7 +3,7 @@ import { Checkbox } from "@mui/material";
 import "./style.css";
 import AboutHotel from "./parts/AboutHotel";
 import Location from "./parts/Location";
-import Footer from "./parts/Footer";
+import Footer from "../../components/Footer";
 import Service from "./parts/Services";
 
 const Home = () => {
@@ -43,7 +43,6 @@ const Home = () => {
             <Service />
             <AboutHotel />
             <Location />
-            <Footer />
         </div>
     );
 };

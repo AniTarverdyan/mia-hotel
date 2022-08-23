@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from '../../../../assets/images/mia-logo.png';
+import logo from '../../assets/images/mia-logo.png';
 import StayCurrentPortraitIcon from '@mui/icons-material/StayCurrentPortrait';
 import './style.css'
 
-
 const Footer = () => {
     return (
-        <div>
+        <div className='footer-content'>
             <img className="header-logo" src={logo} alt="" height="70" />
             <p>© 2022 «Mia» — отель для домашних питомцев.</p>
             <div className='mobile-number'>

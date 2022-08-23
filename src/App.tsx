@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
@@ -16,6 +17,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contacts" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
