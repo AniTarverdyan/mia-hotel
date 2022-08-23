@@ -1,0 +1,55 @@
+.home-content-location {
+  background-color: rgb(250, 247, 242);
+  height: 800px;
+  width: 100%;
+}
+
+.home-content-location h2 {
+  margin-top: 40px;
+}
+
+.find-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-for-find {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-for-find > div {
+  margin: 5px;
+}
+
+.phone-contact div {
+  margin: 5px;
+}
+
+.working-time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.working-time div {
+  margin: 5px;
+}
+
+.contact-time {
+  display: flex;
+  justify-content: space-around;
+}
+
+.location {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.text-field-for-contact div {
+  margin: 2px;
+  width: 400px;
+}
