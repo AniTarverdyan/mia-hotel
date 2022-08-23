@@ -1,0 +1,31 @@
+
+.about-hotel {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.about-hotel h2 {
+     margin: 10px;
+ }
+ 
+ .underline {
+    border-bottom: 3px solid  rgb(71, 121, 21);
+    width: 70px !important;
+    margin: 15px;
+ }
+ 
+.hotel-info {
+     display: flex;
+     margin: 25px;
+ }
+ 
+.hotel-info>div {
+     margin: 30px;
+ }
+ 
+.about-hotel h3 {
+     font-size: 22px;
+     font-weight: 400;
+     margin-bottom: 60px;
+ }
