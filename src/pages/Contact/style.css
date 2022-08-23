@@ -1,28 +1,28 @@
 .contact-page-title {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
- 
- .contact-page-title h2 {
-    font-size: 40px;
-    font-weight: 100;
-    margin: 5px;
+
+.contact-page-title h2 {
+  font-size: 40px;
+  font-weight: 100;
+  margin: 5px;
 }
 
 .contact-page-content {
-    display: flex; 
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px;
 }
 
 .contact {
-    display: flex;
+  display: flex;
 }
 
 .contact-name {
-    font-size: 20px;
-    margin: 0 20px
+  font-size: 20px;
+  margin: 0 20px;
 }

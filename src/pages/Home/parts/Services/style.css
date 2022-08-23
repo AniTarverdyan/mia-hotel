@@ -1,74 +1,73 @@
 .home-content-service {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color:  rgb(250, 247, 242);
-    height: 1400px;
-    width: 100%;
-    margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(250, 247, 242);
+  height: 1400px;
+  width: 100%;
+  margin-top: 40px;
 }
 
 .home-content-service h2 {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .underline {
-    border-bottom: 3px solid  rgb(71, 121, 21);
-    width: 70px;
-    margin: 5px;
- }
+  border-bottom: 3px solid rgb(71, 121, 21);
+  width: 70px;
+  margin: 5px;
+}
 
- .services {
-    display: flex;
-    justify-content: space-between;
-    margin: 100px;
- }
+.services {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+}
 
- .residence {
-    height: 350px;
-    width: 280px;
-    background-color: white;
-    margin: 15px;
+.residence {
+  height: 350px;
+  width: 280px;
+  background-color: white;
+  margin: 15px;
 }
 
 .pet-img {
-    position: relative;
-    top: -60px;
-    height: 220px;
-    width: 220px;
-    border-radius: 50%;
+  position: relative;
+  top: -60px;
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
 }
 
 .residence h4 {
-    position: relative;
-    top: -10px;
-    margin: 0;
-    font-weight: 400;
-    cursor: pointer;
-    font-size: 20px;
+  position: relative;
+  top: -10px;
+  margin: 0;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 20px;
 }
 
 .nav-link {
-    text-decoration: none;
-
+  text-decoration: none;
 }
 
 h4:hover {
-    color: rgb(71, 121, 21);;
+  color: rgb(71, 121, 21);
 }
 
 .home-content-booking {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .home-content-booking h4 {
-    font-size: 20px;
-    font-weight: 400;
-    text-decoration: underline;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
 }
 
 .home-content-booking div {
-    width: 400px;
-    margin: 2px;
+  width: 400px;
+  margin: 2px;
 }
